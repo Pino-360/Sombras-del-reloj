@@ -1,0 +1,1953 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 236,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "none",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.indie.Sombras_del_reloj",
+    "pixelsRounding": true,
+    "projectUuid": "12d276d3-8f90-49ca-9f20-5328228d3d48",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "scaleOuter",
+    "templateSlug": "",
+    "version": "0.0.1",
+    "name": "sombras del reloj",
+    "description": "",
+    "author": "Alonso Pino",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "android-icon-144.png",
+      "android-icon-192": "android-icon-192.png",
+      "android-icon-36": "android-icon-36.png",
+      "android-icon-48": "android-icon-48.png",
+      "android-icon-72": "android-icon-72.png",
+      "android-icon-96": "android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "android-windowSplashScreenAnimatedIcon.png",
+      "desktop-icon-512": "desktop-icon-512.png",
+      "ios-icon-100": "ios-icon-100.png",
+      "ios-icon-1024": "ios-icon-1024.png",
+      "ios-icon-114": "ios-icon-114.png",
+      "ios-icon-120": "ios-icon-120.png",
+      "ios-icon-144": "ios-icon-144.png",
+      "ios-icon-152": "ios-icon-152.png",
+      "ios-icon-167": "ios-icon-167.png",
+      "ios-icon-180": "ios-icon-180.png",
+      "ios-icon-20": "ios-icon-20.png",
+      "ios-icon-29": "ios-icon-29.png",
+      "ios-icon-40": "ios-icon-40.png",
+      "ios-icon-50": "ios-icon-50.png",
+      "ios-icon-57": "ios-icon-57.png",
+      "ios-icon-58": "ios-icon-58.png",
+      "ios-icon-60": "ios-icon-60.png",
+      "ios-icon-72": "ios-icon-72.png",
+      "ios-icon-76": "ios-icon-76.png",
+      "ios-icon-80": "ios-icon-80.png",
+      "ios-icon-87": "ios-icon-87.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 16777215,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "ChatGPT Image 6 jul 2025, 22_41_00.png",
+      "gdevelopLogoStyle": "dark",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 2,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [
+      "bULLDfBNZ0PPldPnEaYAwFYo7J83"
+    ],
+    "authorUsernames": [
+      "Zorrito_Pino"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "ChatGPT Image 6 jul 2025, 22_41_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChatGPT Image 6 jul 2025, 22_41_00.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/desktop-icon-512.png\"}",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-192.png\"}",
+        "name": "android-icon-192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-144.png\"}",
+        "name": "android-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-96.png\"}",
+        "name": "android-icon-96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-72.png\"}",
+        "name": "android-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-48.png\"}",
+        "name": "android-icon-48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-icon-36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-36.png\"}",
+        "name": "android-icon-36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/android-windowSplashScreenAnimatedIcon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-windowSplashScreenAnimatedIcon.png\"}",
+        "name": "android-windowSplashScreenAnimatedIcon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-1024.png\"}",
+        "name": "ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-180.png\"}",
+        "name": "ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-167.png\"}",
+        "name": "ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-152.png\"}",
+        "name": "ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-144.png\"}",
+        "name": "ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-120.png\"}",
+        "name": "ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-114.png\"}",
+        "name": "ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-100.png\"}",
+        "name": "ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-87.png\"}",
+        "name": "ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-80.png\"}",
+        "name": "ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-76.png\"}",
+        "name": "ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-72.png\"}",
+        "name": "ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-60.png\"}",
+        "name": "ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-58.png\"}",
+        "name": "ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-57.png\"}",
+        "name": "ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-50.png\"}",
+        "name": "ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-40.png\"}",
+        "name": "ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-29.png\"}",
+        "name": "ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-20.png\"}",
+        "name": "ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "idle_down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_down.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Flat dark joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat dark joystick border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/1db606cabd7372d1494ba5934bc25bcdd72f5a213c4a27509be57c3f4d5aecca_Flat dark joystick border.png",
+          "name": "Flat dark joystick border.png"
+        }
+      },
+      {
+        "file": "assets/Flat dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat dark joystick thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/10167ade22c4a6b48324e6c1d1bd6dc74179d7bed0775890903f418b4a05c8a1_Flat dark joystick thumb.png",
+          "name": "Flat dark joystick thumb.png"
+        }
+      },
+      {
+        "file": "abajo1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "abajo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "abajo3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "abajo4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "abajo5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "abajo6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "abajo7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "abajo8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abajo8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "izquerda1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquerda1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "izquerda2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquerda2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "izquerda3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquerda3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "izquerda4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquerda4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "izquerda5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquerda5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "izquerda6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquerda6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "izquerda7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquerda7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "izquerda8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "izquerda8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "derecha1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "derecha2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "derecha3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "derecha4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "derecha5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "derecha6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "derecha7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "derecha8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "derecha8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arriva1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriva1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arriva2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriva2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arriva3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriva3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arriva4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriva4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arriva5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriva5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arriva6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriva6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arriva7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriva7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "arriva8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arriva8.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "player",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 500,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 350,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "useLegacyTurnBack": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "caminar abajo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "abajo1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "abajo2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "abajo3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "abajo4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "abajo5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "abajo6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "abajo7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "abajo8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "caminar izquerda",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "izquerda1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "izquerda2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "izquerda3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "izquerda4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "izquerda5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "izquerda6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "izquerda7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "izquerda8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "caminar derecha",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "derecha1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "derecha2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "derecha3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "derecha4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "derecha5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "derecha6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "derecha7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "derecha8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "caminar arriva",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arriva1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arriva2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arriva3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arriva4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arriva5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arriva6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arriva7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arriva8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 10
+                      },
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 6.5,
+                        "y": 42
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "coliciones",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "player"
+      },
+      {
+        "objectName": "coliciones"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/escena-sin-ttulo"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    }
+  ],
+  "externalLayouts": []
+}
